@@ -1,0 +1,16 @@
+.inputBoxWithIcon{
+    padding: 0.3rem 0.5rem;
+    background-color: aliceblue;
+    display: flex;
+    border-radius: 5px;
+    gap:0.7rem;
+    input{
+        border: none;
+        outline: none;
+        background-color: transparent;
+        color: rgb(79, 139, 167);
+    }
+    input::placeholder{
+        color: rgb(79, 139, 167);
+    }
+}

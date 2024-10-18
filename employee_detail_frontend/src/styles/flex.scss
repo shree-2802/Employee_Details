@@ -1,0 +1,35 @@
+@import "./module.scss";
+
+.row {
+    @extend %row;
+}
+
+.column {
+    @extend %column;
+}
+
+.row_center {
+    @extend %row;
+    align-items: center;
+    justify-content: center;
+}
+
+.column_center {
+    @extend %column;
+    align-items: center;
+    justify-content: center;
+}
+
+.row_center_1 {
+    @extend %row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.row_center_1 {
+    @extend %column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}

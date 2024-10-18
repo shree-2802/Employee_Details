@@ -1,0 +1,61 @@
+.forgotContainer {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    background: radial-gradient(#99b1c2 20%, #4e6d83);
+
+    .forgotInner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 70%;
+        height: 70%;
+        background-color: rgba(244, 244, 244, 0.15);
+        border-radius: 50px;
+        padding: 2.5rem;
+
+        .forgotInnerContent {
+            display: flex;
+            height: 100%;
+            width: 100%;
+
+            .leftContainer {
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+
+                .back {
+                    width: 35px;
+                }
+
+                .imageContainer {
+                    flex: 1;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+            }
+
+            .forgotInput {
+                flex: 1;
+            }
+        }
+
+        .touch {
+            width: 40px;
+        }
+    }
+
+}
+
+@media screen and (width<1020px) {
+    .forgotInnerContent {
+        flex-direction: column;
+    }
+}

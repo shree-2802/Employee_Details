@@ -1,0 +1,18 @@
+@import "../../index.scss";
+
+.separatedText {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: $smallFont;
+    color: $steelBlue;
+
+    .textButton {
+        border: none;
+        background-color: transparent;
+        color: $steelBlue;
+        cursor: pointer;
+    }
+    
+}

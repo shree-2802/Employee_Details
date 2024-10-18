@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: "Inknut Antiqua", 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+
+$white: #ffffff;
+$black: #000000;
+$steelBlue: #4f8ba7;
+$smallFont: 11px;
+$mediumFont: 16px;
+$bigFont: 28px;
+$darkSteelBlue: #2cb2f0;

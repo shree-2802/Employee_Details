@@ -1,0 +1,21 @@
+@import "../../index.scss";
+
+.button {
+    padding: .25rem .8rem;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 1px 1px 7px $steelBlue;
+    color:$steelBlue;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color .15s, box-shadow .15s, color .15s;
+}
+
+.button:hover{
+    box-shadow: 1px 1px 7px $darkSteelBlue;
+}
+
+.button:active{
+    background-color: $steelBlue;
+    color: white;
+}
